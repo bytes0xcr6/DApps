@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cristian Test DApp</title>
+</head>
+<html>
+  <body>
+    <div id="Test DApp"></div>
+    <br />
+    <button id="connectWalletBtn">Conectar Wallet</button>
+    <br />
+    <button id="registerUserBtn">Registrarme</button>
+    <br />
+    Estatus de registro: <input disabled type="text" id="register_status" />
+    <button id="isRegisteredBtn">Comprobar registro</button>
+    <input type="text" id="is_registered_user" />
+    <br />
+    Último comentario: <input disabled type="text" id="getComment" />
+    <button id="getCommentBtn">Recuperar comentario</button>
+    <br />
+    Escribe un comentario: <input type="text" id="setComment" />
+    <button id="setCommentBtn">Fijar último comentario</button>
+
+    <!-- FASE DOS: AMPLIACION A REGISTRAR PROPUESTAS -->
+    <br />
+    <br />
+    <br />
+    Introduzca su propuesta <input type="text" id="register_proposal" />
+    <button id="registerProposalBtn">Registrar Propuesta</button>
+    <br />
+    Indicar propuesta a votar: <input type="text" id="vote_proposal" />
+    <button id="voteProposalBtn">Votar Propuesta</button>
+    <br />
+    <br />
+    Votos de la propuesta: <input disabled type="text" id="proposal_votes" />
+    <button id="getVotesProposalBtn">Consultar votos</button>
+    <input type="text" id="get_proposal_votes" />
+
+    <!-- MEJORA: añadir selector que se rellena al obtener las propuestas. Elegir una y votar -->
+    <br /><br />
+    <button id="updateProposalsBtn">Actualizar</button>
+    <select id="selectProposal"></select>
+    <button id="voteProposalFromListBtn">Votar Propuesta</button>
+    <br /><br />
+    <button id="updateResultsBtn">Resultados Actuales</button>
+    <br /><br />
+  </body>
+</html>
