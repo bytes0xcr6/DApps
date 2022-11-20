@@ -15,7 +15,7 @@ const signer = provider.getSigner();
  * La dirección del contrato desplegado
  */
 // Address del contrato desplegado en clase
-let contract_address = "0x01d5Fd6f2a46BF6f441109786120B5C3EC89ddA6";
+let contract_address = "CONTRACT ADDRESS";
 let contract = new ethers.Contract(contract_address, abi_raw.abi, signer);
 
 /**
