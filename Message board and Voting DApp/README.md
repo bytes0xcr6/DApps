@@ -1,5 +1,5 @@
 # DApp White Board and Voting
 
-### Wtih this DApp we can upload a Message to the white board, add new proposals and vote them.
+### With this DApp we can upload a Message to the white board, add new proposals and vote them.
 
-![image](https://user-images.githubusercontent.com/102038261/202920465-b29b7e22-b74e-4150-9436-3c4804b123ea.png)
+![image](https://user-images.githubusercontent.com/102038261/202920539-b32ab9e5-9446-4de5-8326-05b22a45bdaa.png)
