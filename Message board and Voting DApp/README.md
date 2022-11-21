@@ -7,5 +7,5 @@
 1. Clone the repository.
 2. Deploy the Smart contract to any EVM Blockchain.
 3. Add the Smart contract address to the Script file Index.js.
-4. Run the project with Node.JS with the next command.
+4. Run the project with Node.JS with the next command:
 `node run dev`
